@@ -6,6 +6,9 @@
     "start": "tsc && node build/server.js",
     "start-dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "author": "Henrique",
   "license": "MIT",
   "devDependencies": {
