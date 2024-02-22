@@ -11,7 +11,9 @@
 
 <h3>Requisitos</h3>
 
-  ⚠️ [Node.js](https://nodejs.org/en)
+  ⚠️ - [Node.js](https://nodejs.org/en)
+  
+  ⚠️ - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
 
 <h3>Rodando o servidor</h3>
 
