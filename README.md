@@ -54,6 +54,11 @@ Diferenciais:
   - Desenvolvimento em React ou Vue.js
   - Design eficiente
 
+<h3>Entrega</h3>
+📹 Enviar um vídeo explicando o código
+
+🔼 Subir o código no seu GitHub
+
 <h3>Endpoints</h3>
 
 |HTTP Method|URL|Description|
