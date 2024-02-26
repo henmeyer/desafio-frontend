@@ -8,6 +8,14 @@ const app = express();
 const port = 3333;
 
 app.use(bodyParser.json());
+
+app.use((req: any, res: any, next: any) => {
+  res.append("Access-Control-Allow-Origin", "*");
+  res.append("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
+  res.append("Access-Control-Allow-Headers", "Content-Type");
+  next();
+});
+
 app.use("/api", router);
 
 app.listen(port, () => {
